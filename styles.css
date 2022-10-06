@@ -1,0 +1,226 @@
+@media only screen and (min-width:808px) {
+    
+
+header{
+    margin: 0px;
+    height: 888px;
+    width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url(https://commandalkon.com/wp-content/uploads/2020/05/Hero_Naboodah_Deskop_1440x810.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flexbox;
+    
+}
+
+
+.upper {
+    width: 100%;
+    max-height: 32px;
+    display: flex;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10px;
+    justify-content: flex-end;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .3);
+}
+.clientLogin{
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0px 15px 5px 11px;
+    display: inline-flex;
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    
+}
+.dropdownContent {
+    display: none;
+    position: relative;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    float: left;
+
+}
+.dropdownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+    background-color: white;
+}
+  
+.dropdown:hover .dropdownContent {
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.dropdownContent a:hover {
+    background-color: #ddd;
+    position: relative;
+    }
+
+.navBar{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.logo{
+    height: 53px;
+    width: 214px;
+    margin: 10px;
+    justify-content: left;
+    float: left;
+    margin-left: 30px;
+    flex-shrink: 1;
+
+}
+.logo img {
+    flex-shrink: 1;
+    width: 100%;
+}
+.options{
+    color: white;
+    justify-content: center;
+    padding: 10px;
+    margin: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 0.75em;
+    letter-spacing: 2px;
+    flex-shrink: 1;
+    
+}
+.options a {
+    padding: 5px 15px ;
+    
+}
+
+.contact {
+    background: none;
+    height: 50px;
+    width: 125px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 24px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 2px 14px;
+    margin-right: 25px;    
+    flex-shrink: 1;
+}
+.contact:hover {
+    transition: color .4s, background-color .4s, border-color .4s;
+    background-color:rgb(251,105,98);
+    border-color: rgb(251,105,98);
+}
+
+.title{
+    color: white;
+    height: 773px;
+    width: 100%;
+    align-content: center;
+    text-align: left;
+    
+    font-family: 'Work Sans';
+    font-size: 46px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.bigletters{
+    margin-top: 200px;
+    
+    width: 100%;
+    flex-shrink: 1;
+    padding-left: 200px;
+}
+.bigletters h1{
+    font-size: 56px;
+    margin-bottom: 0px;
+    flex-shrink: 1;
+    font-size: 2.5vw;
+}
+.bigletters h2 {
+    font-size: 32px;
+    margin-top: 8px;
+    flex-shrink: 1;
+    font-size: 1.7vw;
+    
+}
+
+.smallcontent{
+    padding-left: 200px;
+    width: 100%;
+    flex-shrink: 1;
+    
+}
+
+
+.title h4 {
+    color: white;
+    font: italic bold 16px 'Work Sans';
+    width: 720px;
+    margin-right: 160px;
+}
+
+#author{
+    font-family: 'Work Sans';
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 1.63;
+    flex-shrink: 1;
+    font-size: 0.7vw;
+}
+#quote{
+    font-size: 1vw;
+}
+.roles  {
+    height: 97px;
+    width: 100%;
+    color: white;
+    background-color: #e95d51;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+}
+.roles li{
+    width: 298px;
+    font-size: 12px;
+    color:white;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    list-style: none;
+    letter-spacing: 2px;
+    border-right: solid 1px #ba3a2f ;
+    
+}
+
+
+body{
+    margin: 0px;
+    height: 100%;
+    margin-bottom: 16px;
+    background-image:url(https://commandalkon.com/wp-content/themes/command-alkon/dist/images/temp/texture_tile_light.gif) ;
+}
+
